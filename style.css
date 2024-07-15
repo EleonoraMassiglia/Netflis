@@ -1,0 +1,39 @@
+.logo{
+    height:40px;
+}
+
+.custom-list-nav{
+    list-style: none;
+}
+
+.custom-list-nav a{
+    color:white;
+    text-decoration: none;
+}
+
+.custom-size-icon-header{
+    height: 23px;
+    width: 35px;
+}
+
+.film-card{
+    width: 250px;
+    height: 200px;
+}
+
+.film-card:hover{
+    transform: scale(1.1);
+}
+
+.swiper-slide{
+    width: 250px !important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.hide-section{
+    visibility: hidden;
+}
